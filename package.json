@@ -1,0 +1,24 @@
+{
+  "name": "lmss-server",
+  "version": "1.0.0",
+  "description": "An express server for the la-mesa-string-school mobile app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timdobranski/lmss-server.git"
+  },
+  "author": "Tim Dobranski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timdobranski/lmss-server/issues"
+  },
+  "homepage": "https://github.com/timdobranski/lmss-server#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
