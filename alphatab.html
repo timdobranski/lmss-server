@@ -5,8 +5,12 @@
     <title>String School Sheet Music Player</title>
     <script src="https://cdn.jsdelivr.net/npm/@coderline/alphatab@latest/dist/alphaTab.js"></script>
     <script src="https://kit.fontawesome.com/85148e8992.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="/styles.css">
 
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <!-- <script>
+      const params = new URLSearchParams(window.location.search);
+      const songFile = 'http://localhost:3001/' + params.get('song') + '.gp5
+    </script> -->
   </head>
 
   <body>
@@ -98,8 +102,7 @@
 
       // initialize alphatab
       const settings = {
-        // file: "https://www.alphatab.net/files/canon.gp",
-        file: "http://localhost:3001/dose.gp",
+        file: 'http://localhost:3001/downloadedFile.gp',
         player: {
           enablePlayer: true,
           soundFont: "https://cdn.jsdelivr.net/npm/@coderline/alphatab@latest/dist/soundfont/sonivox.sf2",
